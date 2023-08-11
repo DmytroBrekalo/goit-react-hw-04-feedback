@@ -1,0 +1,12 @@
+.option_button {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.option_button:not(:first-child) {
+    margin-left: 10px;
+}
